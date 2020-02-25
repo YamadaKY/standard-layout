@@ -17,3 +17,25 @@
 .footer {
   width: 100px;
 }
+.border {
+  border: 2px solid blue;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.left {
+  float: right;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
+.right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.bottom{
+  width: 350px;
+  height: 30px;
+  background-color: green;
+}
