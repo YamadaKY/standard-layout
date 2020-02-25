@@ -1,5 +1,8 @@
 .header {
   width: 100%;
+  padding: 28px 0 10px;
+  background: url('../images/bg-header.gif')repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
 }
 .wrapper {
   width: 970px;
@@ -44,7 +47,6 @@
   display: block;
   clear: both;
 }
-@charset "UTF-8";
 
 html {
   font-size: 62.5%;
@@ -60,4 +62,44 @@ body {
 a:link, a:visited, a:hover, a:active { 
   color: #d03c56;
   text-decoration: none;
+}
+.sample {
+  background-color: transparent;
+  background-image: url('sample.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: auto auto;
+  background-attachment: scroll;
+}
+.sample {
+  background: url('sample.jpg') no-repeat;
+  background-color: blue;
+}
+.sample {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+}
+.sample2 {
+  width: 200px;
+  height: 200px;
+  box-shadow: inset 0 0 10px 30px blue;
+}
+.logo {
+  width: 225px;
+  height: 56px;
+  margin: 0 auto;
+  background: url('../images/logo.png') no-repeat;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.box {
+  margin: 20px;
 }
