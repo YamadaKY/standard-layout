@@ -23,8 +23,8 @@
   opacity: 0.8;
 }
 .left {
-  float: right;
-  width: 200px;
+  float: left;
+  width: 100px;
   height: 100px;
   background-color: yellow;
 }
@@ -38,4 +38,26 @@
   width: 350px;
   height: 30px;
   background-color: green;
+}
+.clrearfix::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+*,*::bifore, *::after {
+  box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active { 
+  color: #d03c56;
+  text-decoration: none;
 }
